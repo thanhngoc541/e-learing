@@ -1,17 +1,107 @@
-<ion-header [translucent]="true">
-  <ion-toolbar>
-    <ion-title>
-      Tab 1
-    </ion-title>
-  </ion-toolbar>
-</ion-header>
+<app-header></app-header>
 
 <ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Tab 1</ion-title>
-    </ion-toolbar>
-  </ion-header>
-
-  <app-explore-container name="Tab 1 page"></app-explore-container>
+  <ion-grid class="ion-padding">
+    <ion-row>
+      <ion-col class="font-size-small ion-margin-bottom-small">
+        <p class="font-size-xs">Welcome back,</p>
+        <p class="font-weight-500">Guest User</p>
+      </ion-col>
+    </ion-row>
+    <ion-row>
+      <ion-col class="font-size-small">
+        <ion-item
+          lines="none"
+          class="background-light ion-padding-vertical-medium border-radius-8"
+        >
+          <ion-avatar aria-hidden="true" slot="start">
+            <img alt="" src="assets/icon/brain.png" />
+          </ion-avatar>
+          <p class="font-size-small">
+            Your personal English AI tutor is waiting
+            <ion-icon name="chatbubble-ellipses"></ion-icon>
+          </p>
+          <ion-button
+            slot="end"
+            shape="round"
+            class="ion-margin-start-medium font-size-xs button-gradient-2"
+            >Chat now</ion-button
+          >
+        </ion-item>
+      </ion-col>
+    </ion-row>
+    <ion-row>
+      <ion-col>
+        <p class="font-weight-600 font-size-large">What should we do today?</p>
+        <ion-item
+          lines="none"
+          class="background-light ion-margin-vertical ion-padding-vertical-medium border-radius-8"
+        >
+          <ion-avatar aria-hidden="true" slot="start">
+            <img alt="" src="assets/icon/play.png" />
+          </ion-avatar>
+          <p>Practice Daily Lessons</p>
+          <ion-button
+            slot="end"
+            shape="round"
+            class="button-circle ion-margin-start-medium font-size-xs button-gradient-1"
+          >
+            <ion-icon name="chevron-forward-outline"></ion-icon
+          ></ion-button>
+        </ion-item>
+        <ion-item
+          lines="none"
+          class="background-light ion-margin-vertical ion-padding-vertical-medium border-radius-8"
+        >
+          <ion-avatar aria-hidden="true" slot="start">
+            <img alt="" src="assets/icon/sound.png" />
+          </ion-avatar>
+          <p>Improve Pronunciation</p>
+          <ion-button
+            slot="end"
+            shape="round"
+            class="button-circle ion-margin-start-medium font-size-xs button-gradient-2"
+          >
+            <ion-icon name="chevron-forward-outline"></ion-icon
+          ></ion-button>
+        </ion-item>
+        <ion-item
+          lines="none"
+          class="background-light ion-margin-vertical ion-padding-vertical-medium border-radius-8"
+        >
+          <ion-avatar aria-hidden="true" slot="start">
+            <img alt="" src="assets/icon/chat.png" />
+          </ion-avatar>
+          <p>Study by Topics</p>
+          <ion-button
+            slot="end"
+            shape="round"
+            class="button-circle ion-margin-start-medium font-size-xs button-gradient-3"
+          >
+            <ion-icon name="chevron-forward-outline"></ion-icon
+          ></ion-button>
+        </ion-item>
+        <ion-item
+          lines="none"
+          class="background-light ion-margin-vertical ion-padding-vertical-medium border-radius-8"
+        >
+          <ion-avatar aria-hidden="true" slot="start">
+            <img alt="" src="assets/icon/badge.png" />
+          </ion-avatar>
+          <p>Earn a Certificate</p>
+          <ion-button
+            slot="end"
+            shape="round"
+            class="button-circle ion-margin-start-medium font-size-xs button-gradient-4"
+          >
+            <ion-icon name="chevron-forward-outline"></ion-icon
+          ></ion-button>
+        </ion-item>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+  <img
+    style="height: 100px; width: 100%; object-fit: revert"
+    src="assets/community.png"
+  />
 </ion-content>

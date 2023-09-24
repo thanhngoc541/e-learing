@@ -1,0 +1,247 @@
+:root {
+    --small: 4px;
+    --medium: 8px;
+    --12: 12px;
+    --large: 20px;
+}
+
+// *************Margin*************
+.ion-margin-small {
+    margin: var(--small);
+}
+
+.ion-margin-medium {
+    margin: var(--medium);
+}
+
+.ion-margin-large {
+    margin: var(--large);
+}
+
+.ion-margin-start-small {
+    margin-left: var(--small);
+}
+
+.ion-margin-start-medium {
+    margin-left: var(--medium);
+}
+
+.ion-margin-start-large {
+    margin-left: var(--large);
+}
+
+.ion-margin-right-auto {
+    margin-right: auto
+}
+
+.ion-margin-end-small {
+    margin-right: var(--small);
+}
+
+.ion-margin-end-medium {
+    margin-right: var(--medium);
+}
+
+.ion-margin-end-12 {
+    margin-right: var(--12);
+}
+
+.ion-margin-end-large {
+    margin-right: var(--large);
+}
+
+.ion-margin-top-small {
+    margin-top: var(--small);
+}
+
+.ion-margin-top-medium {
+    margin-top: var(--medium);
+}
+
+.ion-margin-top-large {
+    margin-top: var(--large);
+}
+
+.ion-margin-bottom-small {
+    margin-bottom: var(--small);
+}
+
+.ion-margin-bottom-medium {
+    margin-bottom: var(--medium);
+}
+
+.ion-margin-bottom-large {
+    margin-bottom: var(--large);
+}
+
+.ion-margin-bottom-large {
+    margin-bottom: var(--large);
+}
+
+.ion-margin-vertical-small {
+    margin-top: var(--small);
+    margin-bottom: var(--small);
+}
+
+.ion-margin-vertical-medium {
+    margin-top: var(--medium);
+    margin-bottom: var(--medium);
+}
+
+.ion-margin-vertical-large {
+    margin-top: var(--large);
+    margin-bottom: var(--large);
+}
+
+.ion-margin-horizontal-small {
+    margin-left: var(--small);
+    margin-right: var(--small);
+}
+
+.ion-margin-horizontal-medium {
+    margin-left: var(--medium);
+    margin-right: var(--medium);
+}
+
+.ion-margin-horizontal-large {
+    margin-left: var(--large);
+    margin-right: var(--large);
+}
+
+.ion-no-margin-top {
+    margin-top: 0 !important;
+}
+.ion-no-margin-bottom {
+    margin-bottom: 0 !important;
+}
+
+//**************Padding**************
+
+
+.ion-padding-small {
+    padding: var(--small);
+}
+
+.ion-padding-medium {
+    padding: var(--medium);
+}
+
+.ion-padding-large {
+    padding: var(--large);
+}
+
+.ion-padding-start-small {
+    padding-left: var(--small);
+}
+
+.ion-padding-start-medium {
+    padding-left: var(--medium);
+}
+
+.ion-padding-start-12 {
+    padding-left: var(--12);
+}
+
+.ion-padding-start-large {
+    padding-left: var(--large);
+}
+
+.ion-padding-end-small {
+    padding-right: var(--small);
+}
+
+.ion-padding-end-medium {
+    padding-right: var(--medium);
+}
+
+.ion-padding-end-large {
+    padding-right: var(--large);
+}
+
+.ion-padding-top-small {
+    padding-top: var(--small);
+}
+
+.ion-padding-top-medium {
+    padding-top: var(--medium);
+}
+
+.ion-padding-top-12 {
+    padding-top: var(--12);
+}
+
+.ion-padding-top-large {
+    padding-top: var(--large);
+}
+
+.ion-padding-bottom-small {
+    padding-bottom: var(--small);
+}
+
+.ion-padding-bottom-medium {
+    padding-bottom: var(--medium);
+}
+
+.ion-padding-bottom-large {
+    padding-bottom: var(--large);
+}
+
+.ion-padding-bottom-large {
+    padding-bottom: var(--large);
+}
+
+.ion-padding-vertical-small {
+    padding-top: var(--small);
+    padding-bottom: var(--small);
+}
+
+.ion-padding-vertical-medium {
+    padding-top: var(--medium);
+    padding-bottom: var(--medium);
+}
+
+.ion-padding-vertical-large {
+    padding-top: var(--large);
+    padding-bottom: var(--large);
+}
+
+.ion-padding-horizontal-small {
+    padding-left: var(--small);
+    padding-right: var(--small);
+}
+
+.ion-padding-horizontal-medium {
+    padding-left: var(--medium);
+    padding-right: var(--medium);
+}
+
+.ion-padding-horizontal-large {
+    padding-left: var(--large);
+    padding-right: var(--large);
+}
+
+.ion-no-padding {
+    padding: 0;
+}
+
+.ion-no-padding-start {
+    --padding-start: 0;
+}
+
+.ion-no-padding-end {
+    --padding-end: 0;
+}
+
+.ion-no-padding-bottom {
+    padding-bottom: 0;
+    --padding-bottom: 0;
+}
+
+.ion-no-padding-top {
+    padding-top: 0 !important;
+    --padding-top: 0;
+}
+
+.ion-padding-10 {
+    padding: 10px;
+}
