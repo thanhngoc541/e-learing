@@ -153,21 +153,33 @@ body.scanner-active {
 ion-header{
     box-shadow: none !important;
 }
+
 ion-header ion-icon{
     background-color: #37324f;
+    height: 20px !important;
+    width: 20px !important;
+    margin:6px !important
 }
 .button-gradient-1{
     --color:white;
+    --ion-color-contrast:white !important;
     --background:linear-gradient(to bottom,#f4de9e 0%, #f3c12a 50%, #ff6a00  100%) !important;
+    --ion-color-base:linear-gradient(to bottom,#f4de9e 0%, #f3c12a 50%, #ff6a00  100%) !important;
 }.button-gradient-2{
     --color:white;
+    --ion-color-contrast:white !important;
     --background:linear-gradient(to bottom,#12D8FA 0%, #1FA2FF 50%, #0053f9  100%) !important;
+    --ion-color-base:linear-gradient(to bottom,#12D8FA 0%, #1FA2FF 50%, #0053f9  100%) !important;
 }.button-gradient-3{
     --color:white;
+    --ion-color-contrast:white !important;
     --background:linear-gradient(to bottom,#e494ff 0%, #c012fa 50%, #7f00a9  100%) !important;
+    --ion-color-base:linear-gradient(to bottom,#e494ff 0%, #c012fa 50%, #7f00a9  100%) !important;
 }.button-gradient-4{
     --color:white;
+    --ion-color-contrast:white !important;
     --background:linear-gradient(to bottom,#8bf99b 0%, #45ea5e 50%, #00bb1c  100%) !important;
+    --ion-color-base:linear-gradient(to bottom,#8bf99b 0%, #45ea5e 50%, #00bb1c  100%) !important;
 }
 
 .button-circle{

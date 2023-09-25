@@ -24,6 +24,10 @@ body {}
 .font-weight-900 {
     font-weight: 900 !important;
 }
+.font-size-xxs {
+    font-size: 10px !important;
+    line-height: 12px !important;
+}
 
 .font-size-xs {
     font-size: 12px !important;
@@ -83,7 +87,12 @@ body {}
 }
 
 .text-dark {
-    color: #222428 !important;
+    color: black !important;
+}
+
+.text-warning {
+    color: var(--ion-color-warning) !important;
+
 }
 
 .text-medium {

@@ -1,5 +1,5 @@
 <ion-header [translucent]="true">
-  <ion-toolbar>
+  <ion-toolbar class="no-border">
     <ion-thumbnail slot="start" class="ion-margin-medium ion-padding-medium">
       <img alt="Ranking" src="assets/icon/champion.png" />
     </ion-thumbnail>
@@ -9,12 +9,13 @@
       <ion-text color="danger">No Rank</ion-text>
     </p>
     <ion-thumbnail
+      id="daily-mission"
       class="ion-margin-vertical-medium ion-margin-end-medium"
       slot="end"
     >
       <ion-icon
         class="ion-padding-medium border-radius-12"
-        size="medium"
+        size="small"
         name="flame-outline"
         color="warning"
       ></ion-icon>
@@ -25,7 +26,7 @@
     >
       <ion-icon
         class="ion-padding-medium border-radius-12 font-size-medium"
-        size="medium"
+        size="small"
         name="calendar-outline"
         color="warning"
       ></ion-icon>
@@ -35,3 +36,57 @@
     <!-- </ion-title> -->
   </ion-toolbar>
 </ion-header>
+
+<ion-modal
+  #modal
+  id="daily-modal"
+  trigger="daily-mission"
+  [enterAnimation]="enterAnimation"
+  [leaveAnimation]="leaveAnimation"
+>
+  <ng-template>
+    <div class="daily-wrapper">
+      <ion-item class="background-transparent ion-no-padding" lines="none">
+        <ion-icon
+          class="ion-padding-medium border-radius-12"
+          size="medium"
+          name="flame"
+          color="warning"
+        ></ion-icon>
+        <ion-label>
+          <p class="text-dark font-size-xs">Today's Goal</p>
+          <p class="text-dark font-weight-600">10 Minites</p>
+        </ion-label>
+      </ion-item>
+
+      <ion-item
+        class="border-grey background-transparent border-radius-8 text-dark ion-text-center"
+        lines="none"
+      >
+        <ion-label>
+          <span class="font-weight-600 font-size-large">0</span>
+          <span class="font-size-xxs"> min</span>
+        </ion-label>
+      </ion-item>
+      <p class="text-dark font-size-xxs ion-margin-top-medium ion-text-right">
+        Complete your Daily Goal to earn
+        <span class="font-weight-700 text-warning">50 Points</span>
+      </p>
+
+      <p
+        class="text-dark font-size-xxs ion-margin-top-small ion-margin-bottom-medium ion-text-right"
+      >
+        5 Points per Minute
+      </p>
+      <ion-button
+        slot="end"
+        color="secondary"
+        expand="block"
+        shape="round"
+        (click)="modal.dismiss()"
+        class="ion-margin-start-medium font-size-xs button-gradient-2"
+        >Continue</ion-button
+      >
+    </div>
+  </ng-template>
+</ion-modal>
